@@ -1,0 +1,6 @@
+#This file will contain the code for the generation of all possible spanning trees for N = 10 vertices.
+#From the Cayley's formula we know that this number for N = 10 will be 10**8.
+#In a nutshell, the algorithm will choose from all N(N-1)/2 edges N-1 edges and will check them if they are a tree.
+import numpy as np
+import time
+import array
